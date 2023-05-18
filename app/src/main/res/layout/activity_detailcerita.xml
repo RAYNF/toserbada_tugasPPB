@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+
+    android:layout_height="match_parent"
+    tools:context=".detailcerita">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="180dp"
+                android:id="@+id/gambarterima"
+                android:layout_height="180dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:id="@+id/nm_tanaman"
+                android:hint="di isi nama buah"
+                android:fontFamily="@font/poppi"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:id="@+id/keterangantanaman"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:hint="keterangan buah"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

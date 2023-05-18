@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".rengasdengklok">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/rengasdengklok"
+            android:layout_width="410dp"
+            android:src="@drawable/rengasdengklok"
+            android:layout_height="250dp"/>
+        <ImageView
+            android:id="@+id/rengasdengklok1"
+            android:layout_width="410dp"
+            android:src="@drawable/rengasdengklok1"
+            android:layout_height="250dp"/>
+        <ImageView
+            android:id="@+id/rengasdengklok2"
+            android:layout_width="410dp"
+            android:src="@drawable/rengasdengklok2"
+            android:layout_height="250dp"/>
+
+    </LinearLayout>
+    </HorizontalScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/nama_tanaman"
+            android:background="@drawable/framejudul"
+            android:layout_width="match_parent"
+            android:textSize="30dp"
+            android:fontFamily="@font/poppin"
+            android:textColor="@color/black"
+            android:text="Rengasdeklok"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/framecerita"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/keterangantanaman"
+            android:text="Pada tanggal 14 Agustus 1945, Sutan Syahrir mendengar kabar dari radio bahwa Jepang menyerah dari Sekutu dalam Perang Asia Timur Raya. Sutan Syahrir segera menemui Soekarno dan Hatta untuk menyampaikan kabar tersebut. Saat itu, Soekarno dan Hatta baru saja pulang dari Dalat, Vietnam, usai bertemu dengan pemimpin militer tertinggi Jepang untuk kawasan Asia Tenggara, Marsekal Terauchi. Kepada Sukarno-Hatta, Terauchi menjanjikan kemerdekaan untuk Indonesia.Silang pendapat pun terjadi di antara ketiga tokoh bangsa itu. Sjahrir meminta agar kemerdekaan segera dideklarasikan. Namun, Sukarno dan Hatta yang belum yakin dengan berita kekalahan Jepang, keduanya justru memilih menunggu kepastian sembari menanti janji kemerdekaan dari Dai Nippon. Untuk mengantisipasi itu, golongan muda melakukan penculikan supaya Soekarno dan Hatta tidak terpengaruh oleh Jepang.Bahwa kemerdekaan yang sebenarnya merupakan hasil dari perjuangan bangsa Indonesia semata, bukan pemberian dari Jepang. Sehari sesudah me dengar kabar kekalahan Jepang melawan sekutu, golongan pemuda mengadakan suatu perundingan di Pegangsaan Timur Jakarta, pada 15 Agustus. Dalam pertemuan ini diputuskan supaya pelaksanaan kemerdekaan dilepaskan dari segala ikatan dan hubungan dengan perjanjian kemerdekaan dari Jepang. Peristiwa Rengasdengklok memiliki makna tersendiri bagi Proklamasi Kemerdekaan Indonesia. Peristiwa Rengasdengklok tidak hanya menjadi nama bagi sebuah tempat, melainkan menjadi saksi bisu perjalanan sejarah kemerdekaan bangsa Indonesia. Tepatnya pada tanggal 15 Agustus, golongan muda mengadakan rapat di Pegangsaan Timur, Jakarta, terkait kapan pengumuman Proklamasi Kemerdekaan Indonesia sebaiknya dilakukan. Rapat yang dipimpin oleh Chaerul Saleh ini kemudian menyepakati bahwa kemerdekaan Indonesia adalah keputusan dari rakyat Indonesia, bukan Jepang. Malamnya, para golongan muda mengutus Wikana dan Darwis untuk menemui Soekarno dan Hatta, mereka menuntut agar proklamasi kemerdekaan dilakukan pada tanggal 16 Agustus 1945. Jika Soekarno-Hatta menolak, maka akan terjadi sebuah pergolakan besar. Namun permintaan Wikana dan Darwis ditolak oleh Soekarno dan Hatta. Soekarno tidak bisa melepas tanggung jawabnya sebagai ketua PPKI, sehingga ia harus berunding terlebih dulu dengan badan buatan Jepang itu. Karena menerima penolakan dari Soekarno dan Hatta, Wikana dan Darwis lantas kembali dan mengadakan rapat yang digelar di Jalan Cikini 71, Jakarta.
+Rapat tersebut dihadiri oleh para tokoh golongan muda lainnya. Mereka pun memutuskan untuk membawa Soekarno dan Hatta ke Rengasdengklok guna menjauhkan mereka dari pengaruh Jepang.Tokoh-tokoh yang sering disebut sebagai golongan tua adalah Soekarno dan Mohammad Hatta, para anggota dan pengurus BPUPKI, dan PPKI. Golongan tua yang diwakili oleh Soekarno dan Hatta serta Mr. Achmad Subardjo dengan golongan muda tentang kapan proklamasi akan dilaksanakan terutama setelah Jepang mengalami kekalahan dalam Perang Pasifik.
+Golongan muda yaitu Sukarni, Chaerul Saleh, Yusuf Kunto, Dr. Muwardi, Shodanco Singgih, Wikana, Sayuti Melik, Sudiro, BM Diah, Djohar Nur, Kusnandar, Subadio, Subianto, Margono, Adam Malik, Armansyah. Peristiwa rengasdengklok merupakan suatu peristiwa penculikan yang dilakukan oleh sejumlah pemuda, yaitu Soekarni, Wikana, Aidit, dan Chaerul Saleh dari perkumpulan “Menteng 31” terhadap Soekarno dan Hatta. Peristiwa ini terjadi pada tanggal 16 Agustus 1945 pukul 03.00 WIB. Soekarno dan Hatta dibawa ke Rengasdengklok, Karawang untuk didesak agar mempercepat proklamasi kemerdekaan Republik Indonesia, sampai dengan terjadinya kesepakatan antara golongan tua."
+            android:layout_width="match_parent"
+            android:fontFamily="@font/poppi"
+            android:textSize="13dp"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

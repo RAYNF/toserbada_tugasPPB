@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".login">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:padding="8dp"
+        android:background="@drawable/taskbar"
+        android:orientation="vertical"
+        android:layout_height="100dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_width="210dp"
+                android:layout_height="30dp"
+                android:background="@drawable/search"
+                android:hint="Telusuri"
+                android:paddingLeft="30dp"
+                android:textSize="16dp" />
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:paddingTop="7dp"
+                android:paddingLeft="4dp"
+                android:src="@drawable/ic_search" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginStart="280dp"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/email"
+                    android:layout_width="30dp"
+
+                    android:background="@drawable/ic_shopping"
+                    android:layout_height="30dp"/>
+                <Button
+                    android:layout_width="30dp"
+                    android:id="@+id/notifikasi"
+                    android:background="@drawable/ic_notification"
+                    android:layout_height="30dp"/>
+                <Button
+                    android:layout_width="30dp"
+                    android:id="@+id/seting"
+                    android:background="@drawable/ic_settings"
+                    android:layout_height="30dp"/>
+
+            </LinearLayout>
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Menu Dashboard"
+                android:fontFamily="@font/pop"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:paddingTop="25dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="25dp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/poppi"
+                    android:text="Obat Herbal"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:background="@drawable/frame"
+                    android:orientation="vertical"
+                    android:layout_height="140dp"
+                    android:layout_margin="4dp"
+                    android:gravity="center">
+
+                    <Button
+                        android:id="@+id/batuk"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:background="@drawable/batuk"
+                        android:clickable="true"
+                        android:foreground="?android:selectableItemBackground" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:text="Batuk"
+                        android:layout_marginTop="2dp"
+                        android:textSize="20dp"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:background="@drawable/frame"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_margin="4dp"
+                    android:layout_height="140dp">
+                    <Button
+                        android:layout_width="80dp"
+                        android:id="@+id/demam"
+                        android:background="@drawable/panas"
+                        android:clickable="true"
+                        android:foreground="?android:selectableItemBackground"
+                        android:layout_height="80dp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:text="Demam"
+                        android:layout_marginTop="2dp"
+                        android:textSize="20dp"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:background="@drawable/frame"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_margin="4dp"
+                    android:layout_height="140dp">
+                    <Button
+                        android:layout_width="80dp"
+                        android:background="@drawable/pusing"
+                        android:id="@+id/pusing"
+                        android:clickable="true"
+                        android:foreground="?android:selectableItemBackground"
+                        android:layout_height="80dp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:text="Pusing"
+                        android:layout_marginTop="2dp"
+                        android:textSize="20dp"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_width="120dp"
+                        android:background="@drawable/frame"
+                        android:orientation="vertical"
+                        android:layout_height="140dp"
+                        android:layout_margin="4dp"
+                        android:gravity="center">
+
+                        <Button
+                            android:layout_width="80dp"
+                            android:id="@+id/diare"
+                            android:layout_height="80dp"
+                            android:background="@drawable/diare"
+                            android:clickable="true"
+                            android:foreground="?android:selectableItemBackground" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:text="Diare"
+                            android:layout_marginTop="2dp"
+                            android:textSize="20dp"
+                            android:textAlignment="center"
+                            android:textColor="@color/white"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="120dp"
+                        android:background="@drawable/frame"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:layout_margin="4dp"
+                        android:layout_height="140dp">
+                        <Button
+                            android:layout_width="110dp"
+                            android:background="@drawable/dart"
+                            android:clickable="true"
+                            android:foreground="?android:selectableItemBackground"
+                            android:layout_height="110dp"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:text="home sweet home"
+                            android:layout_marginTop="2dp"
+                            android:textSize="20dp"
+                            android:textAlignment="center"
+                            android:textColor="@color/white"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="120dp"
+                        android:background="@drawable/frame"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:layout_margin="4dp"
+                        android:layout_height="140dp">
+                        <Button
+                            android:layout_width="110dp"
+                            android:background="@drawable/dart"
+                            android:clickable="true"
+                            android:foreground="?android:selectableItemBackground"
+                            android:layout_height="110dp"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:text="home sweet home"
+                            android:layout_marginTop="2dp"
+                            android:textSize="20dp"
+                            android:textAlignment="center"
+                            android:textColor="@color/white"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_width="120dp"
+                        android:background="@drawable/frame"
+                        android:orientation="vertical"
+                        android:layout_height="140dp"
+                        android:layout_margin="4dp"
+                        android:gravity="center">
+
+                        <Button
+                            android:layout_width="110dp"
+
+                            android:layout_height="110dp"
+                            android:background="@drawable/dart"
+                            android:clickable="true"
+                            android:foreground="?android:selectableItemBackground" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:text="home sweet home"
+                            android:layout_marginTop="2dp"
+                            android:textSize="20dp"
+                            android:textAlignment="center"
+                            android:textColor="@color/white"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="120dp"
+                        android:background="@drawable/frame"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:layout_margin="4dp"
+                        android:layout_height="140dp">
+                        <Button
+                            android:layout_width="110dp"
+                            android:background="@drawable/dart"
+                            android:clickable="true"
+                            android:foreground="?android:selectableItemBackground"
+                            android:layout_height="110dp"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:text="home sweet home"
+                            android:layout_marginTop="2dp"
+                            android:textSize="20dp"
+                            android:textAlignment="center"
+                            android:textColor="@color/white"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="120dp"
+                        android:background="@drawable/frame"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:layout_margin="4dp"
+                        android:layout_height="140dp">
+                        <Button
+                            android:layout_width="110dp"
+                            android:background="@drawable/dart"
+                            android:clickable="true"
+                            android:foreground="?android:selectableItemBackground"
+                            android:layout_height="110dp"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:text="home sweet home"
+                            android:layout_marginTop="2dp"
+                            android:textSize="20dp"
+                            android:textAlignment="center"
+                            android:textColor="@color/white"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:paddingTop="25dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/yellow"
+            android:textSize="25dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppi"
+            android:text="Peristiwa Indonesia"/>
+    </LinearLayout>
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:background="@color/green"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="140dp"
+                android:background="@drawable/frame"
+                android:layout_margin="7dp"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_height="180dp">
+
+                <Button
+                    android:layout_width="130dp"
+                    android:background="@drawable/rengasdengklok"
+                    android:id="@+id/rengasdengklok"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:layout_height="120dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="Rengasdengklok"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="140dp"
+                android:background="@drawable/frame"
+                android:layout_margin="7dp"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_height="180dp">
+
+                <Button
+                    android:layout_width="130dp"
+                    android:background="@drawable/bintaro"
+                    android:id="@+id/bintaro"
+                    android:layout_height="110dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="15dp"
+                    android:text="Bintaro"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="140dp"
+                android:background="@drawable/frame"
+                android:layout_margin="7dp"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_height="180dp">
+
+                <Button
+                    android:layout_width="110dp"
+                    android:background="@drawable/dart"
+
+                    android:layout_height="110dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:text="Presiden"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="140dp"
+                android:background="@drawable/frame"
+                android:layout_margin="7dp"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_height="180dp">
+
+                <Button
+                    android:layout_width="110dp"
+                    android:background="@drawable/dart"
+
+                    android:layout_height="110dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:text="Presiden"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="140dp"
+                android:background="@drawable/frame"
+                android:layout_margin="7dp"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_height="180dp">
+
+                <Button
+                    android:layout_width="110dp"
+                    android:background="@drawable/dart"
+
+                    android:layout_height="110dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:text="Presiden"/>
+            </LinearLayout>
+        </LinearLayout>
+    </HorizontalScrollView>
+        </LinearLayout>
+    </ScrollView>
+            </LinearLayout>
+
+

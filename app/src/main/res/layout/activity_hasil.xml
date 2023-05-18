@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/greentea"
+    android:layout_height="match_parent"
+    tools:context=".hasil">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Account"
+        android:background="@color/yellow"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"/>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            android:layout_marginStart="150dp"
+            android:layout_height="wrap_content">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="150dp"
+                android:src="@drawable/fotoku1"
+                android:layout_height="150dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="5dp"
+            android:paddingLeft="10dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="140dp"
+                android:id="@+id/teksnama"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                android:text="nama panjang : "
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:id="@+id/namakirim"
+                android:hint="nama user"
+                android:textSize="15dp"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginLeft="5dp"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="140dp"
+                android:id="@+id/teksnomer"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                android:text="Nomer: "
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:id="@+id/nomerkirim"
+                android:hint="Nomer"
+                android:textSize="15dp"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginLeft="5dp"
+            android:paddingLeft="10dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="140dp"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                android:text="Email: "
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:id="@+id/emailkirim"
+                android:hint="Emailr"
+                android:textSize="15dp"
+                android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+
+<Button
+    android:layout_width="wrap_content"
+    android:text="Belanja"
+    android:layout_marginTop="20dp"
+    android:layout_marginLeft="150dp"
+    android:onClick="belanja"
+    android:layout_height="wrap_content"/>
+
+</LinearLayout>
